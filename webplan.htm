@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>學生系統</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container main">
+      <div class="row">
+        <div class="col">
+          <h2 class="title">學校教室借用系統</h2>
+          <h2>組員</h2>
+          <div class="card">
+            <div class="card-body">
+              <p>李崑睿 107021250</p>
+            </div>
+          </div>
+          <h2>專題簡介</h2>
+          <div class="card">
+            <div class="card-body">
+              <p>在這個系統中可以讓使用者進行教室的借用與查詢，此程式會把每個使用者與使用者借用的資訊記錄起來，其他使用者也可以透過查詢來了解目前教室的使用狀況，如果是老師，也可以簡單的利用編輯功能來刪除學生的借用紀錄。時間如果過了今天，系統會自動刪除過期的資料。</p>
+            </div>
+          </div>
+          <h2>主要功能</h2>
+          <div class="card">
+            <div class="card-body">
+              <ol>
+                <li>會員註冊與登入登出</li>
+                <li>場地借用</li>
+                <li>教室查詢</li>
+                <li>編輯使用者</li>
+              </ol>
+            </div>
+          </div>
+          <h2>會員註冊與登入登出</h2>
+          <div class="card">
+            <div class="card-body">
+              <ol>
+                <li>註冊</li>
+                <p>form表單，填寫後寫入資料庫。</p>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                          ><script src="https://gist.github.com/ray870211/0e620e6f7bc009413e0df253c6e38718.js"></script></
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <li>登入</li>
+                <p>利用SESSION實現登入功能</p>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingtwo">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsetwo"
+                        aria-expanded="true"
+                        aria-controls="collapsetwo"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapsetwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingtwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <script src="https://gist.github.com/ray870211/6469dc8d9efa71b6c3774ef07f61bc5e.js"></script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <li>登出</li>
+                <p>刪除SESSION</p>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="true"
+                        aria-controls="collapseThree"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <script src="https://gist.github.com/ray870211/9cd6058e87b74b790bc04b5e4b03a4ff.js"></script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ol>
+            </div>
+          </div>
+          <h2>場地借用</h2>
+          <div class="card">
+            <div class="card-body">
+              <ol>
+                <li>選擇教室與日期</li>
+                <p>利用POST與GET傳遞參數</p>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading4">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse4"
+                        aria-expanded="true"
+                        aria-controls="collapse4"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse4"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading4"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <script src="https://gist.github.com/ray870211/baea335be58d1f9e38dac65f6e52d5b4.js"></script>                    </div>
+                  </div>
+                </div>
+                <li>寫入資料庫</li>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading5">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse5"
+                        aria-expanded="true"
+                        aria-controls="collapse5"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse5"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading5"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <script src="https://gist.github.com/ray870211/daf972a489158c8d3ad0e32c9f07b381.js"></script>                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ol>
+            </div>
+          </div>
+          <h2>場地查詢</h2>
+          <div class="card">
+            <div class="card-body">
+              <ol>
+                <li>選擇教室與日期</li>
+                <p>利用POST與GET傳遞參數</p>
+                <li>查詢資料庫</li>
+                <p>要根據每一個時間與大樓分別查詢</p>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading6">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse6"
+                        aria-expanded="true"
+                        aria-controls="collapse6"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse6"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading6"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <script src="https://gist.github.com/ray870211/1198eb26808f88bd5f707bba37f80957.js"></script>
+                      </div>
+                  </div>
+                </div>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <h2>編輯使用者</h2>
+          <div class="card">
+            <div class="card-body">
+              <ol>
+                <li>查詢使用者</li>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading7">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse7"
+                        aria-expanded="true"
+                        aria-controls="collapse7"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse7"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading7"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <script src="https://gist.github.com/ray870211/323d58af626c9ed9650e280f2d14ac0f.js"></script>                    </div>
+                  </div>
+                </div>
+                <li>使用者借用的教室</li>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading8">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse8"
+                        aria-expanded="true"
+                        aria-controls="collapse8"
+                      >
+                        code
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse8"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading8"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <script src="https://gist.github.com/ray870211/2a10de0e8aa871c48a52ddf633f94bbd.js"></script>                    </div>
+                  </div>
+                </div>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <h2>資料庫</h2>
+          <div class="card">
+            <div class="card-body">
+              <ol>
+                <li>class</li>
+                <img src="./css/image/img2.png" alt="">
+                <li>users</li>
+                <img src="./css/image/img3.png" alt="">
+                <li>定期刪除資料事件</li>
+                <p>利用事件每天去去執行<code>DELETE from class where(date< NOW())指令</code></p>
+              </ol>
+            </div>
+          </div>
+          <h3>ER-Molde</h3>
+          <div class="card">
+            <div class="card-body">
+              <img src="./css/image/ermodel.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/40854dc1c9.js" crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"
+  ></script>
+  <script></script>
+</html>
